@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     template: '%s | MS Pack ERP',
-    default: 'MS Pack ERP'
+    default: 'PROJECT MAKO | MSP ERP'
   },
   description: "MS Pack ERP",
   applicationName: "ERP"
