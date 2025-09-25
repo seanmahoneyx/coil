@@ -20,6 +20,8 @@ export default function Home() {
           </Link>
         </div>
 
+      <Link href="/auth/login/" className="hover:underline">Login</Link>
+
 
       </main>
     </div>
