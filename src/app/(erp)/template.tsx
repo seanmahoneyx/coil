@@ -4,7 +4,7 @@ export default async function ERPTemplate({
     children: React.ReactNode
 }) {
     return(
-        <div className="animate-appear">
+        <div>
                 {children}
         </div>
     )
