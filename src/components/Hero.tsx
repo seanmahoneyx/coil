@@ -3,8 +3,9 @@ import { Button } from "@/components/ui/button";
 export default function Hero() {
   return (
     <section
-      className="h-screen flex flex-col items-center justify-center text-center transition-colors duration-500
-                 bg-ms-light text-ms-dark dark:bg-gradient-to-r dark:from-ms-gold dark:to-ms-brown dark:text-white px-4"
+      className="h-screen flex flex-col items-center justify-start text-center 
+             pt-24 transition-colors duration-500 bg-ms-light text-ms-dark 
+             dark:bg-gradient-to-r dark:from-ms-gold dark:to-ms-brown dark:text-white px-4"
     >
       <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
         Welcome to{" "}

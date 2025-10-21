@@ -1,7 +1,10 @@
-export const metadata = {
-    title: "Design"
-};
+import { VisitorHeader } from "@/components/VisitorHeader";
 
 export default function Design() {
-    return <h2>Design Page</h2>
+  return (
+    <>
+    <VisitorHeader />
+    <h1>Test for Design Page</h1>
+    </>
+  );
 }

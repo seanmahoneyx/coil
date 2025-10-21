@@ -19,7 +19,12 @@ export const metadata: Metadata = {
     default: 'PROJECT MAKO | MSP ERP'
   },
   description: "MS Pack ERP",
-  applicationName: "ERP"
+  applicationName: "ERP",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },  
 };
 
 export default function RootLayout({

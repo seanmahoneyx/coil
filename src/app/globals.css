@@ -41,6 +41,21 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+    
+  --color-ms-gold: #D4AF37;
+  --color-ms-brown: #94754B;
+  --color-ms-accent: #2F80ED;
+  --color-ms-accent-alt: #27AE60;
+
+  --color-ms-dark: #1A1A1A;
+  --color-ms-gray: #4B5563;
+  --color-ms-light: #F9FAFB;
+  --color-ms-white: #FFFFFF;
+
+  --color-ms-success: #27AE60;
+  --color-ms-warning: #F2994A;
+  --color-ms-error: #EB5757;
+  --color-ms-info: #2D9CDB;
 }
 
 :root {
@@ -76,22 +91,6 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
-  
-  --color-ms-gold: #D4AF37;
-  --color-ms-brown: #94754B;
-  --color-ms-accent: #2F80ED;
-  --color-ms-accent-alt: #27AE60;
-
-  --color-ms-dark: #1A1A1A;
-  --color-ms-gray: #4B5563;
-  --color-ms-light: #F9FAFB;
-  --color-ms-white: #FFFFFF;
-
-  --color-ms-success: #27AE60;
-  --color-ms-warning: #F2994A;
-  --color-ms-error: #EB5757;
-  --color-ms-info: #2D9CDB;
-
 }
 
 .dark {

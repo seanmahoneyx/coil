@@ -1,14 +1,5 @@
-import Link from "next/link"
-import Hero from "@/components/Hero"
+import { redirect } from "next/navigation";
 
-// I added the word General in here just to test
-export default function GeneralHome() {
-  return (
-    <>
-    
-    <Link href="/auth/login/" className="hover:underline">Login</Link>
-
-
-    </>
-  );
+export default function Page() {
+  redirect("/home");
 }

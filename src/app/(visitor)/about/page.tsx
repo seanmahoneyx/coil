@@ -1,7 +1,10 @@
-export const metadata = {
-    title: "About"
-};
+import { VisitorHeader } from "@/components/VisitorHeader";
 
 export default function About() {
-    return <h2>About Page</h2>
+  return (
+    <>
+    <VisitorHeader />
+    <h1>Test for About Page</h1>
+    </>
+  );
 }
